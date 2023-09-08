@@ -4,7 +4,7 @@ config:
   engines:
     playwright:
       launchOptions:
-        headless: false
+        headless: true
   # Path to JavaScript file that defines Playwright test functions
   processor: "./flows.js"
 scenarios:
